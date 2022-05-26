@@ -2,7 +2,9 @@ import React from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import Navbar from "./Navbar";
-// import Footer from "./Footer";
+import Footer from "./Footer";
+
+// TODO: sticky navbar component over hero.
 
 export default function Container({ children, ...customMeta }) {
   const router = useRouter();
@@ -15,7 +17,7 @@ export default function Container({ children, ...customMeta }) {
     ...customMeta,
   };
   return (
-    <div>
+    <div id="top">
       {/* meta data */}
       <Head>
         <title>{meta.title}</title>
@@ -45,8 +47,9 @@ export default function Container({ children, ...customMeta }) {
       </Head>
       {/* main content */}
       <main className="w-full">
-        {/* <Navbar /> */}
+        <Navbar />
         <div className="">{children}</div>
+        <Footer />
       </main>
     </div>
   );

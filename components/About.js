@@ -20,17 +20,16 @@ export default function Features({}) {
                   Something About Us.
                 </h2>
                 <div>
-                  <p className="mb-9 text-base leading-relaxed text-body-color">
-                    Operating from our studios in the South West we offer a
-                    range of fine art services including Bespoke Conservation
-                    Framing, Artist Studio Support, Fabrication, and Exhibition
-                    Installation.
+                  <p className="mb-6 text-base leading-relaxed text-body-color">
+                    Founded by... we offer a range of fine art services
+                    including Bespoke Conservation Framing, Artist Studio
+                    Support, Fabrication, and Exhibition Installation.
                   </p>
-                  <p className="mb-9 text-base leading-relaxed text-body-color">
+                  <p className="mb-6 text-base leading-relaxed text-body-color">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Illo veritatis exercitationem nisi eos dignissimos saepe eum
-                    ut laboriosam, totam, error iusto quis id quo vel culpa
-                    cupiditate nemo quas dolorem..
+                    ut laboriosam, More information on about previous project
+                    can be found here: LINK TO EXAMPLES.
                   </p>
                   <button className="btn btn-outline">More info</button>
                 </div>
@@ -39,9 +38,9 @@ export default function Features({}) {
               <div className="text-center">
                 <div className="relative z-10 inline-block">
                   <img
-                    src="assets/images/about/about-image.svg"
-                    alt="image"
-                    className="mx-auto lg:ml-auto"
+                    className="md:float-right"
+                    src="https://api.lorem.space/image/shoes?w=450&h=450"
+                    alt="Shoes"
                   />
                 </div>
               </div>

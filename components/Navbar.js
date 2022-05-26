@@ -7,7 +7,7 @@ export default function navbar() {
   return (
     // links to pages
     //anchors connect up
-    <div className="ud-header absolute inset-x-0 top-0 w-fullz-40 bg-transparent">
+    <div className="ud-header absolute inset-x-0 top-0 w-full z-40 bg-transparent">
       <div className="container">
         <div className="relative -mx-4 flex items-center justify-between">
           {/* title */}

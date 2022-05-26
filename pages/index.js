@@ -11,6 +11,7 @@ export default function Home() {
     <Container
       title="Archetype Fine Art Framing"
       description="Bespoke framing lorem ipsum dolar ipsum dolar lorem dolar ipsum dolar"
+      className="z-50 absolute"
     >
       <Hero />
       <Features />
