@@ -5,7 +5,7 @@ import userData from "../constants/userData";
 export default function Testimonials({}) {
   return (
     // turn these into grid instead
-    <section id="testimonials" className="pt-20 md:pt-[120px]">
+    <section id="testimonials" className="pt-10">
       <div className="container px-4">
         <div className="flex flex-wrap">
           <div className="mx-4 w-full">
@@ -13,13 +13,17 @@ export default function Testimonials({}) {
               <span className="mb-2 block text-lg font-semibold text-primary">
                 Testimonials
               </span>
-              <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]">
+              <h2 className="mb-6 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]">
                 What Our Clients Say
               </h2>
-              <p className="text-lg leading-relaxed text-body-color sm:text-xl sm:leading-relaxed">
-                “We're impressed. It's all intuitive. It's clean. It's
-                masterfully created. Craftsmanship."
+              <p className="text-lg leading-relaxed text-body-color sm:text-xl sm:leading-relaxed mb-6">
+                “I’ve been working with Archetype for years now, the quality of
+                their frames and plinths are excellent, they always have great
+                advice and has been able to accommodate some very tight
+                deadlines too, which is much appreciated!"
               </p>
+              <span className="text-sm font-semibold">Rachel Howard</span>
+              <p className="text-xs text-[#969696]">Artist</p>
             </div>
           </div>
         </div>
@@ -28,19 +32,22 @@ export default function Testimonials({}) {
           <div className="w-full px-4 md:w-1/2 lg:w-1/3">
             <div
               className="ud-single-testimonial wow fadeInUp mb-12 bg-white p-8 shadow-testimonial"
-              data-wow-delay=".1s
-              "
+              data-wow-delay=".1s"
             >
               <div className="ud-testimonial-content mb-6">
                 <p className="text-base tracking-wide text-body-color">
-                  “We're impressed. It's all intuitive. It's clean. It's
-                  masterfully created. Craftsmanship."
+                  "Archetype produces bespoke conservation grade mounting and
+                  framing at the highest standard. They are a pleasure to work
+                  with, adapting to a wide range of briefs and offering
+                  invaluable advice."
                 </p>
               </div>
               <div className="ud-testimonial-info flex items-center">
                 <div className="ud-testimonial-meta">
-                  <span className="text-sm font-semibold">Sabo Masties</span>
-                  <p className="text-xs text-[#969696]">Curator @ Rolex</p>
+                  <span className="text-sm font-semibold">Simon Philpott</span>
+                  <p className="text-xs text-[#969696]">
+                    Senior Paper Conservation Technician at Tate
+                  </p>
                 </div>
               </div>
             </div>
@@ -73,14 +80,14 @@ export default function Testimonials({}) {
             >
               <div className="ud-testimonial-content mb-6">
                 <p className="text-base tracking-wide text-body-color">
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
+                  “Our members are so impressed. Thier work is inuative and
+                  clean. It's distraction free. If you're building a community.
                 </p>
               </div>
               <div className="ud-testimonial-info flex items-center">
                 <div className="ud-testimonial-meta">
                   <span className="text-sm font-semibold">William Smith</span>
-                  <p className="text-xs text-[#969696]">Owner @ Trorex</p>
+                  <p className="text-xs text-[#969696]">Owner at Aspex</p>
                 </div>
               </div>
             </div>
@@ -156,8 +163,8 @@ export default function Testimonials({}) {
                     rel="nofollow noopner"
                   >
                     <img
-                      src="/images/clients/pangolin.jpg"
-                      alt="lineicons"
+                      src=""
+                      alt="Panagolin"
                       className="grayscale duration-300 hover:filter-none"
                     />
                   </a>

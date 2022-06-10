@@ -1,6 +1,6 @@
 const userData = {
   name: "ARCHETYPE",
-  designation: "framing etc etc lorem",
+  designation: "Fine Art Framing and services",
   avatarUrl: "https://placedog.net/500",
   videoBg: "/public/vercel.svg",
   projects: [
@@ -46,7 +46,7 @@ const userData = {
     },
   ],
   about: {
-    title: "Lorem ipsum y'all",
+    title: "Test Content",
     description: [` Use this in the h1.`],
     currentProject: "Something interesting",
     currentProjectUrl: "https://alimolloy.com",

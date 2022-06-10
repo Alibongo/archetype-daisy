@@ -1,47 +1,65 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import userData from "../constants/userData";
+import ButtonSvg from "./ButtonSvg";
+import Image from "next/image";
+import lily from "../public/images/general/Lily.jpg";
 
-export default function Features({}) {
+export default function About({}) {
   return (
-    <section id="about" className=" pt-20 lg:pt-[120px]">
+    <section id="about" className="">
       <div className="container">
         <div className="wow fadeInUp bg-white" data-wow-delay=".2s">
           <div className="">
             <div className="">
               <div className="text-center">
-                {/* written content */}
+                <div className="pt-2 relative">
+                  <Image
+                    className="rounded-full"
+                    src={lily}
+                    width={300}
+                    height={300}
+                    alt="Shoes"
+                    objectFit="cover"
+                  />
+                </div>
 
-                {/* <div className="w-full py-12 px-7 sm:px-12 md:p-16 lg:max-w-[565px] lg:py-9 lg:px-16 xl:max-w-[640px] xl:p-[70px]"> */}
-                <span className="mb-5 inline-block py-2 text-sm font-medium">
-                  Something punchy about us.
-                </span>
-                <h2 className="font-bold text-gray-800 mb-8">
-                  Something About Us.
+                <h2 className="font-bold text-gray-800 my-8">
+                  A Something Studio
                 </h2>
                 <div>
                   <p className="mb-6 text-base leading-relaxed text-body-color">
-                    Founded by... we offer a range of fine art services
-                    including Bespoke Conservation Framing, Artist Studio
-                    Support, Fabrication, and Exhibition Installation.
+                    Archetype was started in 2015 in Gloucestershire by myself,
+                    Lily Cheetham, and my partner, Matt Curtis. It was born from
+                    our shared love of art, and developed using experience spent
+                    working in various parts of the art world. We love working
+                    for ourselves and use our range of skills and knowledge to
+                    produce bespoke creative picture frames/exhibition
+                    installation and specialist fabrication services.
                   </p>
                   <p className="mb-6 text-base leading-relaxed text-body-color">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Illo veritatis exercitationem nisi eos dignissimos saepe eum
-                    ut laboriosam, More information on about previous project
-                    can be found here: LINK TO EXAMPLES.
+                    Our wonderful workshop is based in Stroud, a creative town
+                    in itself. We have worked with national public galleries and
+                    commercial, international artists and collectors alike.
                   </p>
-                  <button className="btn btn-outline">More info</button>
+                  <p className="mb-6 text-base leading-relaxed text-body-color">
+                    Piglet, our newest addition to the company.
+                  </p>
+                  <ButtonSvg />
                 </div>
               </div>
               {/* image section */}
               <div className="text-center">
-                <div className="relative z-10 inline-block">
-                  <img
-                    className="md:float-right"
-                    src="https://api.lorem.space/image/shoes?w=450&h=450"
-                    alt="Shoes"
-                  />
+                <div
+                  className="relative inline-block
+                "
+                >
+                  <div className="triangle float-right "></div>
+                  {/* <img
+                    className="md:float-right "
+                    src="./images/general/shelf.jpeg"
+                    alt="Studio Image"
+                  /> */}
                 </div>
               </div>
             </div>
