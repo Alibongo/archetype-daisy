@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from "react";
+
 export default function Video() {
   return (
     <video
@@ -6,10 +8,10 @@ export default function Video() {
       autoPlay
       loop="yes"
       muted
-      poster="https://assets.codepen.io/6093409/river.jpg"
+      poster="./video/studio.webp"
     >
       <source type="video/mp4" src="./video/hero-vid.mp4" />
-      {/* <source type="video/webm" src="https://tinyurl.com/y6q5jxr6" /> */}
+      <img src="./video/studio.webp" alt="archetype studio" />
     </video>
   );
 }

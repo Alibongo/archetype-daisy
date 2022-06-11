@@ -1,17 +1,14 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   const [navbar, setNavbar] = React.useState(false);
-  const [visible, setVisible] = React.useState(true);
-
   const changeBackground = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 55) {
       setNavbar(true);
     } else {
       setNavbar(false);
@@ -24,16 +21,16 @@ function Navbar() {
   return (
     <>
       <nav className={navbar ? "navbar active" : "navbar"}>
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <div className="container flex flex-wrap items-center justify-between px-4 mx-auto">
+          <div className="relative flex justify-between w-full lg:w-auto lg:static lg:block lg:justify-start">
             <Link
               href="/"
-              className="leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+              className="inline-block py-2 mr-4 leading-relaxed text-white uppercase whitespace-nowrap"
             >
-              <div className="title text-white">Archetype</div>
+              <div className="text-white title">Archetype</div>
             </Link>
             <button
-              className="text-white cursor-pointer text-xl leading-none py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              className="block py-1 text-xl leading-none text-white bg-transparent border border-transparent border-solid rounded outline-none cursor-pointer lg:hidden focus:outline-none"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
@@ -48,28 +45,28 @@ function Navbar() {
             id="example-navbar-danger"
           >
             {/* breadcrumbs */}
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              <li className="nav-item px-3 py-2 flex text-xs  title leading-snug justify-center text-white hover:opacity-75">
+            <ul className="flex flex-col list-none lg:flex-row lg:ml-auto">
+              <li className="flex justify-center px-3 py-2 text-xs leading-snug text-white nav-item title hover:opacity-75">
                 <Link href="#services">
                   <a className="ml-2">Services</a>
                 </Link>
               </li>
-              <li className="nav-item px-3 py-2 flex text-xs title leading-snug justify-center text-white hover:opacity-75">
+              <li className="flex justify-center px-3 py-2 text-xs leading-snug text-white nav-item title hover:opacity-75">
                 <Link href="#sustainability">
                   <a className="ml-2">Sustainability</a>
                 </Link>
               </li>
-              <li className="nav-item px-3 py-2 flex text-xs title leading-snug justify-center text-white hover:opacity-75">
+              <li className="flex justify-center px-3 py-2 text-xs leading-snug text-white nav-item title hover:opacity-75">
                 <Link href="#about">
                   <a className="ml-2">About</a>
                 </Link>
               </li>
             </ul>
             {/* social content */}
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              <li className="nav-item justify-center">
+            <ul className="flex flex-col list-none lg:flex-row lg:ml-auto">
+              <li className="justify-center nav-item">
                 <a
-                  className="px-3 py-2 flex justify-center text-xs uppercase text-white hover:opacity-75"
+                  className="flex justify-center px-3 py-2 text-xs text-white uppercase hover:opacity-75"
                   href="https://www.instagram.com/archetypefineart/"
                 >
                   <FontAwesomeIcon
@@ -80,21 +77,16 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex justify-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
+                  className="flex justify-center px-3 py-2 text-xs font-bold leading-snug text-white uppercase hover:opacity-75"
+                  href="#contact"
                 >
-                  <FontAwesomeIcon className="brands fa-xl" icon={faTwitter} />
+                  <FontAwesomeIcon
+                    className="icon fa-regular fa-xl"
+                    icon={faEnvelope}
+                    aria-hidden="true"
+                  ></FontAwesomeIcon>
                 </a>
               </li>
-              {/* Theme Option */}
-              {/* <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
-                >
-                  <span className="ml-2">Change this</span>
-                </a>
-              </li> */}
             </ul>
           </div>
         </div>
