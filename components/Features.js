@@ -15,16 +15,16 @@ export default function Features() {
     //image full... Gifs for various
     //add link to images/sections to go through to larger pages
     <section className="container pb-5">
-      <h2 id="services" className="text-center font-bold pt-8 mb-5">
+      <h2 id="services" className="pt-8 mb-5 font-bold text-center">
         Our Services
       </h2>
       {/* grid */}
       <div id="feature-content" className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2">
           {/* Bespoke Framing */}
-          <div className="order-2 md:order-1 col-span-1 flex h-full flex-col items-center justify-center py-10 md:p-5">
+          <div className="flex flex-col items-center justify-center order-2 h-full col-span-1 py-10 lg:order-1 md:p-5">
             <div className="flex flex-col gap-3">
-              <h3 className="text-2xl md:text-4xl font-semibold">
+              <h3 className="text-2xl font-semibold md:text-4xl">
                 Bespoke Conservation Framing
               </h3>
               <p className="">
@@ -39,7 +39,7 @@ export default function Features() {
               </p>
             </div>
           </div>
-          <div className="order-1 md:order-2 col-span-1 relative">
+          <div className="relative order-1 col-span-1 lg:order-2">
             <Image
               className="absolute"
               objectFit="cover"
@@ -52,7 +52,7 @@ export default function Features() {
           </div>
 
           {/* Specialist Exhibition*/}
-          <div className="order-3 col-span-1 relative">
+          <div className="relative order-3 col-span-1">
             <Image
               className="absolute "
               objectFit="cover"
@@ -62,9 +62,9 @@ export default function Features() {
               src={tarySimon}
             />
           </div>
-          <div className="order-4 col-span-1 flex h-full flex-col items-center justify-center py-10 md:p-5">
+          <div className="flex flex-col items-center justify-center order-4 h-full col-span-1 py-10 md:p-5">
             <div className="flex flex-col gap-3">
-              <h3 className="text-2xl md:text-4xl font-semibold">
+              <h3 className="text-2xl font-semibold md:text-4xl">
                 Specialist Exhibition Installation
               </h3>
               <p className="">
@@ -83,36 +83,35 @@ export default function Features() {
           </div>
 
           {/* Fabrication */}
-          <div className="order-6 md:order-5 col-span-1 flex h-full flex-col items-center justify-center py-10 md:p-5">
+          <div className="flex flex-col items-center justify-center order-6 h-full col-span-1 py-10 lg:order-5 md:p-5">
             <div className="flex flex-col gap-3">
-              <h3 className="text-2xl md:text-4xl font-semibold">
+              <h3 className="text-2xl font-semibold md:text-4xl">
                 Fabrication
               </h3>
               <p className="">
-                We’re now able to offer many bespoke requests using our
-                carpentry skills and well-equipped workshop, helping us provide
-                creative solutions for all aspects of the art industry.
+                Utilising our wealth of carpentry skills and well-equipped
+                workshop, we offer many bespoke solutions for all aspects of the
+                art industry.
               </p>
               <p>Our services include:</p>
-              <ul className="list-disc list-inside leading-loose w-9/12">
+              <ul className="w-9/12 leading-loose list-disc list-inside">
                 <li className="">
                   Providing custom canvas stretchers, constructed with wood or
                   aluminium.
                 </li>
                 <li className="">
-                  Stretching and priming surfaces with a wealth of knowledge and
-                  advice about fabrics and products, ensuring you have the right
-                  surface for artistic needs.
+                  Stretching and priming surfaces and advice about fabrics and
+                  products, ensuring you have the right surface for artistic
+                  needs.
                 </li>
                 <li className="">
                   Creating custom plinths for sculpture using plywood among many
-                  others materials, and just like the frames we can offer
-                  unlimited finishes.
+                  others materials, also with unlimited finishes.
                 </li>
               </ul>
             </div>
           </div>
-          <div className="order-5 md:order-6 col-span-1 relative">
+          <div className="relative order-5 col-span-1 lg:order-6">
             <Image
               className="absolute"
               src={skateBoard}
@@ -120,12 +119,12 @@ export default function Features() {
               objectFit="cover"
               objectPosition="0 40%"
               width={4928 / 4}
-              height={3264 / 4}
+              height={3364 / 4}
             />
           </div>
 
           {/* Artist Studio Support */}
-          <div className="order-7 col-span-1 relative">
+          <div className="relative order-7 col-span-1">
             <Image
               className="absolute"
               src={chevron}
@@ -135,9 +134,9 @@ export default function Features() {
               height={3264 / 4}
             />
           </div>
-          <div className="order-8 col-span-1 flex h-full flex-col items-center justify-center py-10 md:p-5">
+          <div className="flex flex-col items-center justify-center order-8 h-full col-span-1 py-10 md:p-5">
             <div className="flex flex-col gap-3">
-              <h3 className="text-2xl md:text-4xl font-semibold">
+              <h3 className="text-2xl font-semibold md:text-4xl">
                 Artist Studio Support
               </h3>
               <p className="">
