@@ -17,8 +17,6 @@ export default function Hero() {
           </h1>
         </div>
       </div>
-      {/* <div className="w-full h-full z-10 bg-blue-900 bg-opacity-50 sm:bg-transparent top-0 left-0 absolute"></div> */}
-
       <VideoBg />
     </div>
   );

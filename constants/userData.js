@@ -3,6 +3,7 @@ const userData = {
   designation: "Fine Art Framing and services",
   avatarUrl: "https://placedog.net/500",
   videoBg: "/public/vercel.svg",
+  insta: "https://www.instagram.com/archetypefineart/",
   projects: [
     {
       title: "Lorem Ipsum",
@@ -51,7 +52,6 @@ const userData = {
     currentProject: "Something interesting",
     currentProjectUrl: "https://alimolloy.com",
     socialLinks: {
-      instagram: "https://www.instagram.com/archetypefineart/",
       twitter: "https://twitter.com/molloy_ali",
     },
   },

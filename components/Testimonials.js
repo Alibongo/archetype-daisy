@@ -10,9 +10,6 @@ export default function Testimonials({}) {
         <div className="flex flex-wrap">
           <div className="mx-4 w-full">
             <div className="mx-auto mb-[60px] max-w-[620px] text-center lg:mb-20">
-              <span className="mb-2 block text-lg font-semibold text-primary">
-                Testimonials
-              </span>
               <h2 className="mb-6 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]">
                 What Our Clients Say
               </h2>

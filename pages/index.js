@@ -11,13 +11,13 @@ export default function Home() {
   return (
     <Container
       title="Archetype Fine Art Framing"
-      description="Bespoke framing lorem ipsum dolar ipsum dolar lorem dolar ipsum dolar"
-      className=""
+      description="Bespoke framing and fine art services"
+      image="/piggin.png"
     >
       <Hero />
       <Features />
-      <Sustainability />
       <About />
+      <Sustainability />
       <Testimonials />
     </Container>
   );
