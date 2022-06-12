@@ -3,11 +3,10 @@ import Link from "next/link";
 import userData from "../constants/userData";
 import Image from "next/image";
 
-import chevron from "../public/images/examples/AbigailGrey.jpg";
-import alumFrame from "../public/images/examples/alumFrame.jpg";
-import skateBoard from "../public/images/examples/SkateFab.jpg";
-import conservation from "../public/images/examples/conservation.jpg";
-import tarySimon from "../public/images/examples/tarySimonExhibition.jpg";
+import chevron from "../public/images/examples/AbigailGrey.webp";
+import alumFrame from "../public/images/examples/alumFrame.webp";
+import skateBoard from "../public/images/examples/SkateFab.webp";
+import tarySimon from "../public/images/examples/tarySimonExhibition.webp";
 
 export default function Features() {
   return (

@@ -3,8 +3,7 @@ import Link from "next/link";
 import userData from "../constants/userData";
 import ButtonSvg from "./ButtonSvg";
 import Image from "next/image";
-import lily from "../public/images/general/Lily.jpg";
-import group from "../public/images/general/group.jpg";
+import group from "../public/images/general/group.webp";
 
 export default function About({}) {
   return (
@@ -15,7 +14,7 @@ export default function About({}) {
             <div className="text-center">
               <h2 className="font-bold text-gray-800">About Us</h2>
               <div>
-                <div className="py-8 relative">
+                <div className="relative py-8">
                   <Image
                     className="rounded-full"
                     src={group}
@@ -47,8 +46,7 @@ export default function About({}) {
             {/* image section */}
             <div className="text-center">
               <div
-                className="relative inline-block
-                "
+                className="relative inline-block "
               >
                 <img
                   className=""

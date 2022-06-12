@@ -162,14 +162,14 @@ export default function Testimonials({}) {
                   />
                 </a>
               </div>
-              <div className="ud-single-logo mr-10 mb-5 max-w-[140px]">
+              <div className="ud-single-logo mr-9 mb-5 max-w-[165px]">
                 <a
                   href="https://www.pangolinlondon.com/"
                   target="_blank"
                   rel="nofollow noopner noreferrer"
                 >
                   <img
-                    src=""
+                    src="/images/clients/pangolin.png"
                     alt="Panagolin"
                     className="duration-300 grayscale hover:filter-none"
                   />

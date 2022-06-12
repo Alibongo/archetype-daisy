@@ -4,8 +4,8 @@ import Container from "../components/Container";
 //TODO: Navbar currently not inside container
 import Navbar from "../components/Navbar";
 
-import abigail from "../public/images/examples/AbigailGrey.jpg";
-import blueFrame from "../public/images/examples/BlueFrame.jpg";
+import abigail from "../public/images/examples/AbigailGrey.webp";
+import blueFrame from "../public/images/examples/BlueFrame.webp";
 
 // padding on items
 
@@ -14,17 +14,17 @@ export default function Conservation() {
     <Container
       title="Archetype Fine Art Framing"
       description="Bespoke framing lorem ipsum dolar ipsum dolar lorem dolar ipsum dolar"
-      className="z-50 absolute bg-green-200"
+      className="absolute z-50 bg-green-200"
     >
       <section id="top-area" className="text-gray-600 body-font">
-        <div className="container mx-auto flex px-5 items-center justify-center flex-col">
-          <h3 className="title-font mb-5">Conservation Services</h3>
+        <div className="container flex flex-col items-center justify-center px-5 mx-auto">
+          <h3 className="mb-5 title-font">Conservation Services</h3>
           <Image
-            className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
+            className="object-cover object-center w-5/6 mb-10 rounded lg:w-2/6 md:w-3/6"
             alt="hero"
             src={blueFrame}
           />
-          <div className=" lg:w-2/3 w-full mt-6">
+          <div className="w-full mt-6 lg:w-2/3">
             <p className="mb-8 leading-relaxed">
               Meggings kinfolk echo park stumptown DIY, kale chips beard
               jianbing tousled. Chambray dreamcatcher trust fund, kitsch vice
@@ -41,10 +41,10 @@ export default function Conservation() {
         </div>
       </section>
       <section id="conservation-content" className="text-gray-600 body-font">
-        <div className="container p-5 mx-auto flex flex-wrap">
-          <div className="flex flex-wrap mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
-            <div className="w-full sm:p-4 px-4 mb-6">
-              <h3 className=" mb-2 text-gray-900">
+        <div className="container flex flex-wrap p-5 mx-auto">
+          <div className="flex flex-wrap content-start mt-auto mb-auto lg:w-1/2 sm:w-2/3 sm:pr-10">
+            <div className="w-full px-4 mb-6 sm:p-4">
+              <h3 className="mb-2 text-gray-900 ">
                 Moon hashtag pop-up try-hard offal truffaut
               </h3>
               <div className="leading-relaxed">
@@ -55,7 +55,7 @@ export default function Conservation() {
               </div>
             </div>
           </div>
-          <div className="lg:w-1/2 sm:w-1/3 w-full order-last md:order-first overflow-hidden mt-6 sm:mt-0">
+          <div className="order-last w-full mt-6 overflow-hidden lg:w-1/2 sm:w-1/3 md:order-first sm:mt-0">
             <Image
               className="object-cover object-center w-full h-full rounded-lg"
               src={blueFrame}
@@ -63,10 +63,10 @@ export default function Conservation() {
             />
           </div>
         </div>
-        <div className="container p-5 mx-auto flex flex-wrap">
-          <div className="flex flex-wrap  mt-auto mb-auto lg:w-full sm:w-2/3 content-start sm:pr-10">
-            <div className="w-full sm:p-4 px-4 mb-6">
-              <h3 className=" mb-2 text-gray-900">
+        <div className="container flex flex-wrap p-5 mx-auto">
+          <div className="flex flex-wrap content-start mt-auto mb-auto lg:w-full sm:w-2/3 sm:pr-10">
+            <div className="w-full px-4 mb-6 sm:p-4">
+              <h3 className="mb-2 text-gray-900 ">
                 Moon hashtag pop-up try-hard offal truffaut
               </h3>
               <div className="leading-relaxed">
