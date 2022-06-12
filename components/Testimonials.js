@@ -4,7 +4,6 @@ import userData from "../constants/userData";
 
 export default function Testimonials({}) {
   return (
-    // turn these into grid instead
     <section id="testimonials" className="pt-10">
       <div className="container px-4">
         <div className="flex flex-wrap">
