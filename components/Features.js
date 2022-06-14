@@ -6,6 +6,7 @@ import Image from "next/image";
 import chevron from "../public/images/examples/AbigailGrey.webp";
 import alumFrame from "../public/images/examples/alumFrame.webp";
 import skateBoard from "../public/images/examples/SkateFab.webp";
+// import conservation from "../public/images/examples/conservation.webp";
 import tarySimon from "../public/images/examples/tarySimonExhibition.webp";
 
 export default function Features() {

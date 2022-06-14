@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import userData from "../constants/userData";
 import ButtonSvg from "./ButtonSvg";
-import Image from "next/image";
-import group from "../public/images/general/group.webp";
+// import Image from "next/image";
+// import group from "../public/images/general/group.webp";
 
 export default function About({}) {
   return (
@@ -15,13 +15,21 @@ export default function About({}) {
               <h2 className="font-bold text-gray-800">About Us</h2>
               <div>
                 <div className="relative py-8">
-                  <Image
+                  {/* <Image
                     className="rounded-full"
                     src={group}
                     width={300}
                     height={300}
                     alt="Shoes"
                     objectFit="cover"
+                  /> */}
+
+                  <img
+                    src="/images/general/group.webp"
+                    className="w-64 h-64 mx-auto rounded-full"
+                    alt="group"
+                    height="auto"
+                    object-fit="cover"
                   />
                 </div>
                 <p className="mb-6 text-base leading-relaxed text-body-color">
@@ -45,9 +53,7 @@ export default function About({}) {
             </div>
             {/* image section */}
             <div className="text-center">
-              <div
-                className="relative inline-block "
-              >
+              <div className="relative inline-block ">
                 <img
                   className=""
                   src="./images/general/shelf.jpeg"
