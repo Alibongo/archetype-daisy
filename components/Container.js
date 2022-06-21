@@ -29,7 +29,7 @@ export default function Container({ children, ...customMeta }) {
       {/* main content */}
       <main className="w-full">
         <Navbar />
-        <div className="">{children}</div>
+        <div className="bg-slate-200">{children}</div>
         <Footer />
       </main>
     </div>

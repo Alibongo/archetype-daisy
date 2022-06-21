@@ -9,7 +9,7 @@
   }
 
   .navbar.active {
-    @apply bg-black;
+    background-color: #08113b;
   }
   .title {
     @apply font-heading font-bold uppercase text-2xl tracking-[.35em];

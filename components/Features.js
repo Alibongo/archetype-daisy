@@ -20,10 +20,10 @@ export default function Features() {
       </h2>
       {/* grid */}
       <div id="feature-content" className="container mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
           {/* Bespoke Framing */}
           <div className="flex flex-col items-center justify-center order-2 h-full col-span-1 py-10 lg:order-1 md:p-5">
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col w-3/4 gap-3">
               <h3 className="text-2xl font-semibold md:text-4xl">
                 Bespoke Conservation Framing
               </h3>
@@ -37,11 +37,33 @@ export default function Features() {
                 We also work with accredited painting/textile and paper
                 conservators when treatment is required for your artwork.
               </p>
+              <div className="grid gap-4 text-white md:grid-cols-3 place-content-center">
+                <div className="p-5 bg-green-600">
+                  <h3 className="mb-2 text-xl leading-tight text-bold">
+                    Provide
+                  </h3>
+                  custom canvas stretchers, constructed with wood or aluminium.
+                </div>
+                <div className="p-5 bg-yellow-500">
+                  <h3 className="mb-2 text-xl leading-tight text-bold">
+                    Stretched and primed
+                  </h3>
+                  surfaces and advice about fabrics and products, ensuring you
+                  have the right surface for artistic needs.
+                </div>
+                <div className="p-5 bg-orange-400">
+                  <h3 className="mb-2 text-xl leading-tight text-bold">
+                    Create
+                  </h3>
+                  custom plinths for sculpture using plywood among many others
+                  materials, also with unlimited finishes.
+                </div>
+              </div>
             </div>
           </div>
-          <div className="relative order-1 col-span-1 lg:order-2">
+          <div className="relative items-center justify-center order-1 col-span-1 lg:order-2">
             <Image
-              className="absolute"
+              className="absolute rounded-lg"
               objectFit="cover"
               objectPosition="0 20%"
               layout="responsive"
@@ -52,9 +74,9 @@ export default function Features() {
           </div>
 
           {/* Specialist Exhibition*/}
-          <div className="relative order-3 col-span-1">
+          <div className="relative order-3 col-span-1 rounded-md">
             <Image
-              className="absolute "
+              className="absolute rounded-lg"
               objectFit="cover"
               layout="responsive"
               width={4928 / 4}
@@ -72,13 +94,26 @@ export default function Features() {
                 private clients to provide a range of install/de-install
                 services:
               </p>
-              <p className="">
-                This consists of installing archive items and books into
-                vitrines in exhibitions. We offer consultations to make supports
-                for the above, with the book cradles made from Perspex and
-                mount/box board. We work with curators, technicians and art
-                handlers on site to help deliver to the highest standard.{" "}
-              </p>
+              <div className="grid gap-4 text-white md:grid-cols-3 place-content-center">
+                <div className="p-5 rounded-md bg-blue-900/100">
+                  <h3 className="mb-2 text-xl leading-tight text-bold ">
+                    Installation
+                  </h3>
+                  Books, artefacts and artworks placed into exhibition space.
+                </div>
+                <div className="p-5 rounded-md bg-blue-800/100">
+                  <h3 className="mb-2 text-xl leading-tight text-bold">
+                    Consultations and advice
+                  </h3>
+                  How to display artefacts safely.
+                </div>
+                <div className="p-5 rounded-md bg-blue-700/100">
+                  <h3 className="mb-2 text-xl leading-tight text-bold">
+                    Fabrication
+                  </h3>
+                  Book cradles fabricated with Perspex/ Mountboard.
+                </div>
+              </div>
             </div>
           </div>
 
@@ -94,26 +129,33 @@ export default function Features() {
                 art industry.
               </p>
               <p>Our services include:</p>
-              <ul className="w-9/12 leading-loose list-disc list-inside">
-                <li className="">
-                  Providing custom canvas stretchers, constructed with wood or
-                  aluminium.
-                </li>
-                <li className="">
-                  Stretching and priming surfaces and advice about fabrics and
-                  products, ensuring you have the right surface for artistic
-                  needs.
-                </li>
-                <li className="">
-                  Creating custom plinths for sculpture using plywood among many
-                  others materials, also with unlimited finishes.
-                </li>
-              </ul>
+              <div className="grid gap-4 text-white md:grid-cols-3 place-content-center">
+                <div className="p-5 rounded-md bg-blue-900/100">
+                  <h3 className="mb-2 text-xl leading-tight text-bold">
+                    Provide
+                  </h3>
+                  custom canvas stretchers, constructed with wood or aluminium.
+                </div>
+                <div className="p-5 rounded-md bg-blue-800/100">
+                  <h3 className="mb-2 text-xl leading-tight text-bold">
+                    Stretched and primed
+                  </h3>
+                  surfaces and advice about fabrics and products, ensuring you
+                  have the right surface for artistic needs.
+                </div>
+                <div className="p-5 rounded-md bg-blue-700/100">
+                  <h3 className="mb-2 text-xl leading-tight text-bold">
+                    Create
+                  </h3>
+                  custom plinths for sculpture using plywood among many others
+                  materials, also with unlimited finishes.
+                </div>
+              </div>
             </div>
           </div>
           <div className="relative order-5 col-span-1 lg:order-6">
             <Image
-              className="absolute"
+              className="absolute rounded-lg"
               src={skateBoard}
               layout="responsive"
               objectFit="cover"
@@ -126,7 +168,7 @@ export default function Features() {
           {/* Artist Studio Support */}
           <div className="relative order-7 col-span-1">
             <Image
-              className="absolute"
+              className="absolute rounded-lg"
               src={chevron}
               layout="responsive"
               objectFit="contain"
@@ -146,6 +188,28 @@ export default function Features() {
                 your work. General admininstration practical assistance needed
                 in-studio support.
               </p>
+              <div className="grid gap-4 text-white md:grid-cols-3 place-content-center">
+                <div className="p-5 rounded-md bg-blue-900/100">
+                  <h3 className="mb-2 text-xl leading-tight text-bold">
+                    Provide
+                  </h3>
+                  custom canvas stretchers, constructed with wood or aluminium.
+                </div>
+                <div className="p-5 rounded-md bg-blue-800/100">
+                  <h3 className="mb-2 text-xl leading-tight text-bold">
+                    Stretched and primed
+                  </h3>
+                  surfaces and advice about fabrics and products, ensuring you
+                  have the right surface for artistic needs.
+                </div>
+                <div className="p-5 rounded-md bg-blue-700/100">
+                  <h3 className="mb-2 text-xl leading-tight text-bold">
+                    Create
+                  </h3>
+                  custom plinths for sculpture using plywood among many others
+                  materials, also with unlimited finishes.
+                </div>
+              </div>
             </div>
           </div>
         </div>
